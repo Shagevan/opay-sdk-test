@@ -10,6 +10,19 @@
 		F31D104924CE742C009AB227 /* onepay_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31D103F24CE742C009AB227 /* onepay_ios_sdk.framework */; };
 		F31D104E24CE742C009AB227 /* onepay_ios_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D104D24CE742C009AB227 /* onepay_ios_sdkTests.swift */; };
 		F31D105024CE742C009AB227 /* onepay_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = F31D104224CE742C009AB227 /* onepay_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F31D106024CE7488009AB227 /* second.html in Resources */ = {isa = PBXBuildFile; fileRef = F31D105924CE7488009AB227 /* second.html */; };
+		F31D106124CE7488009AB227 /* WKWebScriptHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D105A24CE7488009AB227 /* WKWebScriptHandler.swift */; };
+		F31D106224CE7488009AB227 /* jquery-3.5.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = F31D105B24CE7488009AB227 /* jquery-3.5.1.min.js */; };
+		F31D106324CE7488009AB227 /* mypage.html in Resources */ = {isa = PBXBuildFile; fileRef = F31D105C24CE7488009AB227 /* mypage.html */; };
+		F31D106424CE7488009AB227 /* paymentpage.html in Resources */ = {isa = PBXBuildFile; fileRef = F31D105D24CE7488009AB227 /* paymentpage.html */; };
+		F31D106524CE7488009AB227 /* onepaymain.js in Resources */ = {isa = PBXBuildFile; fileRef = F31D105E24CE7488009AB227 /* onepaymain.js */; };
+		F31D106624CE7488009AB227 /* onepay-style.css in Resources */ = {isa = PBXBuildFile; fileRef = F31D105F24CE7488009AB227 /* onepay-style.css */; };
+		F31D106924CE7504009AB227 /* PaymentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D106724CE7504009AB227 /* PaymentPageViewController.swift */; };
+		F31D106A24CE7504009AB227 /* PaymentPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31D106824CE7504009AB227 /* PaymentPageViewController.xib */; };
+		F31D106C24CE790C009AB227 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D106B24CE790C009AB227 /* Manager.swift */; };
+		F31D10C624CE86A4009AB227 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = F31D10C524CE86A4009AB227 /* test.html */; };
+		F31D10DF24CE9289009AB227 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31D106E24CE7939009AB227 /* WebKit.framework */; };
+		F31D10E024CE9289009AB227 /* WebKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F31D106E24CE7939009AB227 /* WebKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +35,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F31D10E124CE9289009AB227 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F31D10E024CE9289009AB227 /* WebKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F31D103F24CE742C009AB227 /* onepay_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = onepay_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31D104224CE742C009AB227 /* onepay_ios_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = onepay_ios_sdk.h; sourceTree = "<group>"; };
@@ -29,6 +56,18 @@
 		F31D104824CE742C009AB227 /* onepay-ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onepay-ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31D104D24CE742C009AB227 /* onepay_ios_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onepay_ios_sdkTests.swift; sourceTree = "<group>"; };
 		F31D104F24CE742C009AB227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31D105924CE7488009AB227 /* second.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = second.html; sourceTree = "<group>"; };
+		F31D105A24CE7488009AB227 /* WKWebScriptHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebScriptHandler.swift; sourceTree = "<group>"; };
+		F31D105B24CE7488009AB227 /* jquery-3.5.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-3.5.1.min.js"; sourceTree = "<group>"; };
+		F31D105C24CE7488009AB227 /* mypage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mypage.html; sourceTree = "<group>"; };
+		F31D105D24CE7488009AB227 /* paymentpage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = paymentpage.html; sourceTree = "<group>"; };
+		F31D105E24CE7488009AB227 /* onepaymain.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = onepaymain.js; sourceTree = "<group>"; };
+		F31D105F24CE7488009AB227 /* onepay-style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "onepay-style.css"; sourceTree = "<group>"; };
+		F31D106724CE7504009AB227 /* PaymentPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPageViewController.swift; sourceTree = "<group>"; };
+		F31D106824CE7504009AB227 /* PaymentPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentPageViewController.xib; sourceTree = "<group>"; };
+		F31D106B24CE790C009AB227 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		F31D106E24CE7939009AB227 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		F31D10C524CE86A4009AB227 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31D10DF24CE9289009AB227 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +96,7 @@
 				F31D104124CE742C009AB227 /* onepay-ios-sdk */,
 				F31D104C24CE742C009AB227 /* onepay-ios-sdkTests */,
 				F31D104024CE742C009AB227 /* Products */,
+				F31D106D24CE7938009AB227 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +112,19 @@
 		F31D104124CE742C009AB227 /* onepay-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
+				F31D10C524CE86A4009AB227 /* test.html */,
+				F31D106B24CE790C009AB227 /* Manager.swift */,
+				F31D105B24CE7488009AB227 /* jquery-3.5.1.min.js */,
+				F31D105C24CE7488009AB227 /* mypage.html */,
+				F31D105F24CE7488009AB227 /* onepay-style.css */,
+				F31D105E24CE7488009AB227 /* onepaymain.js */,
+				F31D105D24CE7488009AB227 /* paymentpage.html */,
+				F31D105924CE7488009AB227 /* second.html */,
+				F31D105A24CE7488009AB227 /* WKWebScriptHandler.swift */,
 				F31D104224CE742C009AB227 /* onepay_ios_sdk.h */,
 				F31D104324CE742C009AB227 /* Info.plist */,
+				F31D106724CE7504009AB227 /* PaymentPageViewController.swift */,
+				F31D106824CE7504009AB227 /* PaymentPageViewController.xib */,
 			);
 			path = "onepay-ios-sdk";
 			sourceTree = "<group>";
@@ -84,6 +136,14 @@
 				F31D104F24CE742C009AB227 /* Info.plist */,
 			);
 			path = "onepay-ios-sdkTests";
+			sourceTree = "<group>";
+		};
+		F31D106D24CE7938009AB227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31D106E24CE7939009AB227 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +168,7 @@
 				F31D103B24CE742C009AB227 /* Sources */,
 				F31D103C24CE742C009AB227 /* Frameworks */,
 				F31D103D24CE742C009AB227 /* Resources */,
+				F31D10E124CE9289009AB227 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +209,7 @@
 				TargetAttributes = {
 					F31D103E24CE742C009AB227 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					F31D104724CE742C009AB227 = {
 						CreatedOnToolsVersion = 11.6;
@@ -178,6 +240,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31D106524CE7488009AB227 /* onepaymain.js in Resources */,
+				F31D106224CE7488009AB227 /* jquery-3.5.1.min.js in Resources */,
+				F31D106324CE7488009AB227 /* mypage.html in Resources */,
+				F31D106624CE7488009AB227 /* onepay-style.css in Resources */,
+				F31D10C624CE86A4009AB227 /* test.html in Resources */,
+				F31D106A24CE7504009AB227 /* PaymentPageViewController.xib in Resources */,
+				F31D106424CE7488009AB227 /* paymentpage.html in Resources */,
+				F31D106024CE7488009AB227 /* second.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31D106924CE7504009AB227 /* PaymentPageViewController.swift in Sources */,
+				F31D106C24CE790C009AB227 /* Manager.swift in Sources */,
+				F31D106124CE7488009AB227 /* WKWebScriptHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +413,7 @@
 		F31D105424CE742C009AB227 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "singtel.onepay-ios-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +438,7 @@
 		F31D105524CE742C009AB227 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +462,7 @@
 		F31D105724CE742C009AB227 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "onepay-ios-sdkTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +480,7 @@
 		F31D105824CE742C009AB227 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "onepay-ios-sdkTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

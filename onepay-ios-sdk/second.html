@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="jquery-3.5.1.min.js"></script>
+    <title>SECOND</title>
+</head>
+
+<body>
+<h1>MyHTML</h1>
+<p id="mytext">THIS IS SECOND PAGE!</p>
+<button id="submit">Submit</button>
+
+<div id="message"></div>
+<script>
+    $(document).ready(function () {
+      $("#submit").click(function (e) {
+        $.ajax({
+            type: "GET",
+            url: "https://jsonplaceholder.typicode.com/posts",
+            dataType: "json",
+            success: function (result, status, xhr) {
+
+              var dataArray = JSON.parse(JSON.stringify(result));
+              var result = "";
+              $.each(dataArray, function (id, post) {
+                result += '<b>Title : </b>' + post.title + '<br />' +
+                              '<b> Body :</b>' + post.body + '<hr />';
+            });
+
+              $("#message").html(result);
+            },
+            error: function (xhr, status, error) {
+              alert("Result::::: " + status + " :::" + error + "::: " + xhr + " :::" + xhr.statusText)
+            }
+          });
+      });
+
+
+
+    });
+
+    function callFromActivity(msg){
+ document.getElementById("mytext").innerHTML = msg;
+   }
+  </script>
+
+</body>
+
+</html>
